@@ -8,6 +8,8 @@ from config import settings
 def parse_city_json(json_file='russia.json'):
     content = {}
     p_obj = None
+    """Test"""
+    print("TEST git")
     try:
         js_obj = open(json_file, "r", encoding="utf-8")
         p_obj = json.load(js_obj)
